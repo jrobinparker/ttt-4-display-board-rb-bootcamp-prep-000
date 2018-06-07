@@ -6,11 +6,11 @@ board = [" "," "," "," "," "," "," "," "," "]
 def display_board(board)
   
   rows = [
-  "  #{board[0..8]} | #{board[0..8]} |  #{board[0..8]} ",
+  "  #{board[]} | #{board[]} |  #{board[]} ",
   "-----------",
-  " #{board[0..8]}  | #{board[0..8]}  | #{board[0..8]}  ",
+  " #{board[]}  | #{board[]}  | #{board[]}  ",
   "-----------",
-  " #{board[0..8]}  | #{board[0..8]}  | #{board[0..8]}  ",
+  " #{board[]}  | #{board[]}  | #{board[]}  ",
   ]
   
   puts rows
