@@ -13,6 +13,7 @@ def display_board(board)
   " #{board[]}  | #{board[]}  | #{board[]}  ",
   ]
   
-  puts rows
+  rows = output.split("\n")
+
   
 end
