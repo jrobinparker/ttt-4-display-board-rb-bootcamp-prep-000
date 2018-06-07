@@ -12,8 +12,6 @@ def display_board(board)
   "-----------",
   " #{board[]}  | #{board[]}  | #{board[]}  ",
   ]
-  
-  rows = output.split("\n")
 
   
 end
